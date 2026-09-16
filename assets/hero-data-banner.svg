@@ -1,0 +1,43 @@
+<svg width="1600" height="320" viewBox="0 0 1600 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="320" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#030712"/>
+    <stop offset="0.55" stop-color="#07152B"/>
+    <stop offset="1" stop-color="#0B1F3A"/>
+  </linearGradient>
+  <linearGradient id="line" x1="80" y1="220" x2="1490" y2="90" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#2997FF" stop-opacity="0"/>
+    <stop offset="0.22" stop-color="#2997FF"/>
+    <stop offset="0.55" stop-color="#64D2FF"/>
+    <stop offset="1" stop-color="#0A84FF" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="7" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+    <path d="M48 0H0V48" stroke="#6E9BD0" stroke-opacity="0.07"/>
+  </pattern>
+</defs>
+<rect width="1600" height="320" rx="28" fill="url(#bg)"/>
+<rect x="1" y="1" width="1598" height="318" rx="27" stroke="#2997FF" stroke-opacity="0.18"/>
+<rect width="1600" height="320" rx="28" fill="url(#grid)"/>
+<circle cx="1320" cy="95" r="170" fill="#0A84FF" fill-opacity="0.08"/>
+<circle cx="1320" cy="95" r="110" fill="#64D2FF" fill-opacity="0.05"/>
+<path d="M90 245C205 216 247 258 350 215C445 175 510 216 603 179C700 140 757 205 846 166C934 127 1001 172 1094 132C1185 93 1250 124 1340 82C1401 54 1451 60 1510 38" stroke="url(#line)" stroke-width="4" filter="url(#glow)"/>
+<path d="M90 266H1510" stroke="#2997FF" stroke-opacity="0.15"/>
+<g fill="#2997FF" fill-opacity="0.85">
+  <rect x="160" y="195" width="18" height="71" rx="5"/>
+  <rect x="190" y="168" width="18" height="98" rx="5"/>
+  <rect x="220" y="132" width="18" height="134" rx="5"/>
+  <rect x="250" y="151" width="18" height="115" rx="5"/>
+</g>
+<g fill="#64D2FF" fill-opacity="0.9">
+  <circle cx="350" cy="215" r="7"/><circle cx="603" cy="179" r="7"/><circle cx="846" cy="166" r="7"/><circle cx="1094" cy="132" r="7"/><circle cx="1340" cy="82" r="7"/>
+</g>
+<text x="90" y="78" fill="#F5F7FA" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="28" font-weight="600" letter-spacing="4">DATA • MACHINE LEARNING • AI</text>
+<text x="90" y="124" fill="#A9C7EA" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18" letter-spacing="2">ANALYZE  →  MODEL  →  EXPLAIN  →  DEPLOY</text>
+<text x="90" y="302" fill="#6E9BD0" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" letter-spacing="2">PREDICTIVE ANALYTICS  ·  FORECASTING  ·  COMPUTER VISION  ·  APPLIED AI</text>
+<text x="1290" y="255" fill="#F5F7FA" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18" font-weight="600">BETTER DATA</text>
+<text x="1290" y="281" fill="#2997FF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18" font-weight="600">BRIGHTER DECISIONS</text>
+</svg>
